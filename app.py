@@ -27,10 +27,7 @@ new_index = VectorStoreIndex.from_documents(
 )
 new_query_engine = new_index.as_query_engine()
 
-while True:
-    question = st.text_input("Your question(Enter exit to quit):\n")
-    if question=="exit":
-        break
-    response = new_query_engine.query(question)
-    print(response)
-    st.write(response)
+question = st.text_input("Your question(Enter exit to quit):")
+response = new_query_engine.query(question)
+st.write(response)
+print(response)
