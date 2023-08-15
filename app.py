@@ -1,7 +1,10 @@
 import os
 import streamlit as st
 import openai
-openai.api_key = ""
+from dotenv import load_dotenv
+import os
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 from llama_index import VectorStoreIndex, SimpleDirectoryReader
 
