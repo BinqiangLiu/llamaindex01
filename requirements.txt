@@ -6,3 +6,5 @@ langchain
 llama-index
 llama_index
 huggingface_hub
+pypdf
+PyPDF2
