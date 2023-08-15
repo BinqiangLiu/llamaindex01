@@ -5,3 +5,4 @@ langchain
 #llamaindex
 llama-index
 llama_index
+huggingface_hub
