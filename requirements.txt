@@ -8,3 +8,4 @@ llama_index
 huggingface_hub
 pypdf
 PyPDF2
+sentence_transformers
